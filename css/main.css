@@ -182,18 +182,73 @@ header.transparent-header {
     font-size: 18px;
     margin: 0;
 }
+
 .header-icon i{
     color: #ec6e39;
-    font-size: 16px;
+    font-size: 14px;
 }
+
 .header-icon{
     float: left;
     margin-right: 15px;
 }
 
 .header-text{
+    margin-left: 15px;
     overflow: hidden;
 }
 
+.header-info ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
 
+.header-login i{
+    color: #ec6e39;
+    font-size: 12px;
+}
+.header-login a {
+    color: #c0c8d4;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
 
+.logo img{
+    max-width: 22%;
+    border-radius: 50%;
+}
+
+.menu-box {
+    border: 2px solid #777781;
+    padding: 0 38px;
+}
+
+.f-btn{
+    color: #fff;
+    font-size: 13px;
+    background: #ec6e39;
+    padding: 16px 35px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.main-menu ul li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-menu ul li a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+}
+.header-btn{
+    margin-left: 50px;
+}
