@@ -240,6 +240,7 @@ header.transparent-header {
 .main-menu ul li{
     display: inline-block;
     margin-left: 40px;
+    position: relative;
 }
 
 .main-menu ul li a{
@@ -249,6 +250,69 @@ header.transparent-header {
     text-transform: uppercase;
     display: block;
 }
+.main-menu ul li:hover > a{
+    color: #ec6e39;
+}
 .header-btn{
     margin-left: 50px;
+}
+
+
+/* sub menu style  */
+.main-menu ul li .submenu {
+    position: absolute;
+    background: #fff;
+    width: 180px;
+    top: 110%;
+    left: 0;
+    margin-top: 25px;
+    border-top: 3px solid #ec6e39;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.main-menu ul li:hover > .submenu{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.main-menu ul li .submenu li{
+    margin: 0;
+    display: block;
+    position: relative;
+ }
+.main-menu ul li .submenu li a {
+    color: #111;
+    padding: 10px 10px;
+}
+.main-menu ul li .submenu li:hover > a{
+    color: #ec6e39;
+}
+.main-menu ul li .submenu li .sub-two{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background: #fff;
+    width: 180px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    border-top: 3px solid #ec6e39;
+}
+.main-menu ul li .submenu li:hover > .sub-two{
+    opacity: 1;
+    visibility: visible;
+}
+
+.f-down{
+    font-size: 14px;
+    margin-left: 5px;
+}
+.submenu li .rotetion{
+    transition: transform 0.3s ease;
+}
+
+li:hover > a .rotetion {
+    transform: rotate(270deg);
 }
