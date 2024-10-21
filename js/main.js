@@ -24,7 +24,15 @@ $(window).on('scroll', function () {
 	}
 });
 
+// Apply background image from 'data-background'
+$("[data-background]").each(function () {
+    $(this).css("background-image", "url(" + $(this).attr("data-background") + ")");
+});
 
+// Apply background color from 'data-bg-color'
+$("[data-bg-color]").each(function () {
+    $(this).css("background", $(this).attr("data-bg-color"));
+});
 
 // mainSlider
 function mainSlider() {
