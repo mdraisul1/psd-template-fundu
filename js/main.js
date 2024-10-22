@@ -110,6 +110,14 @@ $('.popup-video').magnificPopup({
 	type: 'iframe'
 });
 
+/* slider js code */
+$('.testimonial-slider').slick({
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	arrows: false,
+	autoplay: true,
+	autoplaySpeed: 2000,
+  });
 
 // isotop
 $('.grid').imagesLoaded( function() {
