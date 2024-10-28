@@ -117,7 +117,8 @@ $('.testimonial-slider').slick({
 	arrows: false,
 	autoplay: true,
 	autoplaySpeed: 2000,
-  });
+});
+
 
 // isotop
 $('.grid').imagesLoaded( function() {
@@ -159,6 +160,12 @@ $.scrollUp({
 	scrollText: '<i class="icofont icofont-long-arrow-up"></i>', // Text for element
 	activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 });
+
+$('.accordion-button').on('click', function() {
+    $(this).find('.icon-toggle').toggleClass('fa-plus fa-minus');
+});
+
+
 
 // WOW active
 new WOW().init();

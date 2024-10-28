@@ -92,7 +92,7 @@ img {
 /* Forms */
 input, textarea, select {
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -390,7 +390,7 @@ li:hover > a .rotetion {
     text-transform: capitalize;
     opacity: 0.1;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%); 
     z-index: 1; 
@@ -481,11 +481,396 @@ li:hover > a .rotetion {
 .accordion-button:not(.collapsed) .icon-toggle {
     content: '\f068';
     transform: rotate(180deg);
-
 }
 .fa-plus:before {
     content: "\2b";
     font-size: 20px;
     color: #ec6e39;
 }
+.fa-minus:before {
+    content: "\2212"; 
+    font-size: 20px;
+    color: #ec6e39;
+}
+
+/* event area style  */
+.event-area{
+    background: #f2edff;
+}
+
+.event-btn {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    right: 0;
+}
+
+a.event-button {
+    padding: 12px 25px;
+    border: 2px solid #e5e5e5;
+    border-radius: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.event-content-area span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ec6e39;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.event-content-area h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.event-content-area p {
+    font-size: 16px;
+}
+
+a.event-content-btn {
+    /* margin-top: 20px; */
+    padding: 13px 27px;
+    background: #ec6e39;
+    margin-top: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+.back-area {
+    background: #fff;
+    padding: 0;
+}
+
+.event-content-area {
+    padding: 56px 56px 56px 20px;
+}
+.event-con-btn {
+    padding-top: 25px;
+}
+
+.ev-back{
+    font-size: 120px;
+    color: #121121;
+    text-transform: capitalize;
+    opacity: 0.1;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    white-space: nowrap;
+    pointer-events: none; 
+}
+
+.price-event{
+    padding: 0;
+}
+
+.price-round h4 {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+    margin-top: -6px;
+}
+
+.price-round span {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.price-round {
+    display: inline-block;
+    background: #ec6e39;
+    padding: 15px;
+    text-align: center;
+    border-radius: 100%;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 23px;
+    right: 30px;
+}
+
+
+.eve-img img {
+    width: 100%;
+}
+.pri-con{
+    background: #fff;
+    padding: 40px 15px;
+}
+.pri-con h2 {
+    font-size: 20px;
+    text-align: center;
+}
+.pri-con p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* out team section area style  */
+.team-back {
+    font-size: 120px;
+    color: #121121;
+    text-transform: capitalize;
+    opacity: 0.1;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    white-space: nowrap;
+    pointer-events: none;
+    font-family: serif;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1.5px solid #dedcdc;
+    border-radius: none;
+    padding: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15); 
+    border-color: transparent;
+}
+.team-card h5 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+.card-body p {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #ec6e39;
+}
+
+.social-icons i {
+    color: #bab9d4;
+    font-size: 14px;
+    letter-spacing: 12px;
+    transition: color 0.3s ease;
+}
+.social-icons i:hover {
+    color: #ec6e39;
+}
+
+
+/* contact area  */
+.contact-area {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-overly::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    opacity: .7;
+    z-index: 1;
+}
+
+.contact-area .container {
+    position: relative;
+    z-index: 2;
+}
+
+.contact-input label {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.contact-input span {
+    color: #ec6e39;
+}
+
+.contact-input input {
+    background: none;
+    padding: 10px 0;
+    color: #fff;
+    padding-left: 30px;
+}
+.contact-input input::placeholder {
+    color: #969f9c;
+    font-size: 14px;
+}
+.contact-input input:focus::placeholder{
+    color: transparent;
+}
+
+.contact-input select {
+    background: none;
+    padding: 10px 0;
+    color: #fff;
+    padding-left: 30px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    color: #969f9c;
+    font-size: 14px;
+}
+
+.input-select {
+    position: relative;
+}
+
+.input-select::after{
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    position: absolute;
+    top: 23px;
+    right: 30px;
+    font-size: 14px;
+    color: #ffffff;
+    pointer-events: none; 
+}
+
+.join-btn {
+    background: #ec6e39;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.content-back {
+    font-size: 96px;
+    color: #f4f3ff;
+    text-transform: capitalize;
+    opacity: 0.1;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    white-space: nowrap;
+    pointer-events: none;
+    font-family: serif;
+}
+
+.content-2 h2{
+    color: #fff;
+}
+
+
+/* upcoming event area */
+.up-event-area{
+    background: #f2edff;
+}
+
+.date-box {
+    background: #ec6e39;
+    width: 140px;
+    height: 140px;
+    padding-top: 40px;
+}
+
+.float-left{
+    float: left;
+}
+.date-box h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.date-box small {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.event-info i{
+    margin-right: 10px;
+}
+.event-info p {
+    font-size: 16px;
+    color: #686893;
+}
+
+.event-info h5 {
+    font-size: 36px;
+    font-family: 'Poppins';
+    letter-spacing: -2px;
+    margin-bottom: 10px;
+}
+
+.btn-event {
+    font-size: 14px;
+    color: #bec1d4;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: 1px solid #bec1d4;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+.btn-event:hover {
+    background: #ec6e39;
+    border: none;
+    color: #fff;
+}
+.event-content {
+    background: #fff;
+    padding: 50px;
+}
+
+
+/* counter area style  */
+.single-count {
+    border-right: 3px solid #232239;
+    padding: 80px 0;
+}
+.single-count h1{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 15px;
+}
+.single-count span {
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.sing-co{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+
+
+
 
