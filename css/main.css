@@ -901,8 +901,13 @@ a.event-content-btn {
     color: #ec6e39;
 }
 
-
-
+/* footer section area style  */
+.footer-widget h2 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
 
 
 
