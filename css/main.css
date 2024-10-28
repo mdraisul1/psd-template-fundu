@@ -868,6 +868,42 @@ a.event-content-btn {
     font-weight: 700;
 }
 
+/* latest new area style  */
+
+.news-thum img {
+    width: 100%;
+}
+.news-content {
+    background: #fff;
+    padding: 40px;
+    padding-top: 35px;
+}
+
+.news-content span {
+    color: #ec6e39;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.news-content h4 a {
+    color: #000;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+.news-content p {
+    font-size: 14px;
+    color: #686893;
+    font-family: sans-serif;
+}
+.icon-read-more i {
+    color: #ec6e39;
+}
+
+
+
+
 
 
 
