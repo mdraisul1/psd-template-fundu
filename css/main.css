@@ -54,7 +54,6 @@ ul, ol {
 ul li, ol li {
     color: #333;
     font-size: 1rem;
-    margin-bottom: 10px;
 }
 
 /* Links */
@@ -908,10 +907,50 @@ a.event-content-btn {
     font-size: 30px;
     letter-spacing: 1px;
 }
+.footer-widget p {
+    font-size: 14px;
+    color: #afb3d6;
+    margin: 0;
+}
 
+.footer-widget ul {
+    padding: 0;
+}
+.footer-widget ul li a {
+    color: #afb3d6;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.footer-widget ul li:hover > a{
+    color: #ec6e39;
+}
+.footer-wedget-list span {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ec6e39;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.footer-wedget-list h3 {
+    color: #afb3d6;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+.footer-wedget-list h3 a:hover{
+    color: #afb3d6;
+}
 
-
-
-
-
+.footer-widget ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-bottom a{
+    color: #ec6e39;
+}
+.footer-bottom a:hover{
+    color: #afb3d6;
+}
+.text-warn{
+    color: #ec6e39;
+}
 
